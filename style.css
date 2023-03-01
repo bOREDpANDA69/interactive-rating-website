@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    font-family: Overpass, sans-serif;
+    font-size: 15px;
+}
+button {
+    border: none;
+}
+
+.bg {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121417;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #252d37;
+    display: block;
+}
+
+.star {
+    padding-bottom: 20px;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: #2b3645;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text {
+    padding-top: 20px;
+    color: #7c8798;
+}
+.rating {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratingButton {
+    width: 38px;
+    padding: 10px;
+    color: #7c8798;
+    border-radius: 50%;
+    background-color: #2b3645;
+}
+
+.ratingButton:hover {
+    background-color: #fb7413;
+    color: white;
+}
+
+.clickedRatingButton {
+    width: 38px;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 50%;
+    background-color: #959eac;
+}
+
+.number {
+    color: #7c8798;
+    font-weight: 600;
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+    background-color: #fb7413;
+    border-radius: 20px;
+}
+
+.submit:hover {
+    background-color: white;
+    color: #fb7413;
+}
+
+.thankYouCard {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #252d37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+#thankyouimage {
+    position: relative;
+    height: auto;
+    width: 125px;
+    padding-top: 30px;
+}
+
+.selectedRating {
+    font-size: 12px;
+    margin: 20px;
+    background-color: #3c4959;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+#ratingText {
+    color: #fb7413;
+}
+
+.thankYouText {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.appreciateText {
+    font-size: 13px;
+    text-align: center;
+    color: #7c8798;
+}
+
